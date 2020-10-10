@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FAQScreen"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+  <ScrollView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#ffffff"
+       android:layout_margin="10dp"
+       android:padding="10dp"
+       android:orientation="vertical"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="What is FoodRunner?"
+           android:textColor="@color/redShade"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="FoodRunner is a food delivery service that does home deliveries from
+various restaurants/outlets in NCR."
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="We are one of the India's premier Home Delivery Services. Operational since 2010, we have served so many people so far."
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#D3D3D3"
+           android:layout_marginTop="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="What locations does FoodRunner service, at the moment?"
+           android:textColor="@color/redShade"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="We are currently providing services in NCR region."
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Soon we will expand our service coverage over other cities in India and abroad as well."
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#D3D3D3"
+           android:layout_marginTop="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Where is FoodRunner Registered and Head Office?"
+           android:textColor="@color/redShade"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Our Registered Head Office is currently at :"
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Multiplex Plaza, Fourth floor, New Enclave Ghaziabad, Uttar Pradesh, India."
+           android:textColor="#0f0f0f"
+           android:fontFamily="@font/comfortaa"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#D3D3D3"
+           android:layout_marginTop="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="How can you place an order with Food Runner apart from doing it through App?"
+           android:textColor="@color/redShade"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="By PHONE : just call (020)-4432 5182 or +91 - 9087654321"
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Online : just login to www.foodrunner.in and place your order and have the option of paying online via secured online payment mode OR using the FoodRunner Prepaid Account mode."
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#D3D3D3"
+           android:layout_marginTop="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Do I have to register before placing an order?"
+           android:textColor="@color/redShade"
+           android:paddingTop="10dp"
+           android:paddingBottom="10dp"
+           android:fontFamily="@font/comfortaa"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Yes! You have to register with us before placing an order."
+           android:textColor="@color/textShade"
+           android:fontFamily="@font/comfortaa"
+           />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#D3D3D3"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="100dp"
+           />
+   </LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

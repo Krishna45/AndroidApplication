@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/orange"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_icon"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/comfortaa"
+        android:id="@+id/displayName"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/comfortaa"
+        android:id="@+id/displayPhone"
+        />
+
+</LinearLayout>

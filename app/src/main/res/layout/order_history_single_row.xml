@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="0.02"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <RelativeLayout
+            android:layout_weight="0.60"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:id="@+id/textRestaurantName"
+                android:fontFamily="@font/comfortaa"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="0.40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="5dp"
+                android:text="Date"
+                android:textAlignment="textEnd"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:id="@+id/textDate"
+                android:fontFamily="@font/comfortaa"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.895"
+        android:padding="5dp"
+        android:id="@+id/recyclerViewForItemsOrdered"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="6dp"
+        android:background="#909090"
+        />
+</LinearLayout>
