@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".fragment.Home">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/orange"
+        android:padding="10dp"
+        android:id="@+id/layoutSearch"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/searchview_background"
+            android:drawableStart="@drawable/ic_search"
+            android:hint="Search Restaurant"
+            android:fontFamily="@font/comfortaa"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:paddingStart="12dp"
+            android:id="@+id/textSearch"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutSearch"
+        android:background="#ffffff"
+        android:elevation="1dp"
+        android:id="@+id/find"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:text="Can't find any restaurant with that name"
+            android:textColor="@color/textShade"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerHome"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:layout_below="@id/layoutSearch"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:id="@+id/progressLayout"
+        >
+       <ProgressBar
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/progressBar"
+           android:layout_centerInParent="true"
+           />
+
+    </RelativeLayout>
+
+</RelativeLayout>

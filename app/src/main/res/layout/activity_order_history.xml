@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".activity.OrderHistory">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@color/orange"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:text="Your Previous orders are listed below"
+        android:layout_margin="8dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/comfortaa"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/displayText"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D3D3D3"
+        android:layout_margin="4dp"
+        android:id="@+id/displayLine"
+        android:layout_below="@+id/displayText"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerItem"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/displayText"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:id="@+id/progressLayout"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="There are no previous orders"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/textShade"
+        />
+    </RelativeLayout>
+
+</RelativeLayout>
